@@ -1,2 +1,7 @@
 description bundle <http://example.com/rover/description/bundle#> as ^bundle {
+	uses <http://example.com/rover/vocabulary/bundle#> 
+	
+	includes <http://example.com/rover/description/functions#> as functions
+	includes <http://example.com/rover/description/requirements#> as requirements
+	includes <http://example.com/rover/description/components#> as components
 }
