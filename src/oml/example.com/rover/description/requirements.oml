@@ -1,3 +1,107 @@
 @dc:title "Requirements"
 description <http://example.com/rover/description/requirements#> as requirements {
+	
+	uses <http://purl.org/dc/elements/1.1/> as dc
+
+	uses <http://www.w3.org/2000/01/rdf-schema#> as rdfs
+
+	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
+
+	uses <http://imce.jpl.nasa.gov/foundation/project#> as project
+
+	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
+	
+	@rdfs:label "The system shall be able to explore"
+	ci ExplorationReq  : mission:Requirement //
+	[
+		mission:isRefinedBy MobilityReq
+		mission:isRefinedBy ScienceActReq
+	]
+	
+	@rdfs:label "The system shall be autonomous for up to 5h during night time"
+	ci AutonomyTime  : mission:Requirement //
+	[
+		mission:refines NightimeScience
+		mission:refines NightDriving
+		mission:isRefinedBy EnergyGeneration
+		mission:isRefinedBy EnergyStore
+	]
+	
+	@rdfs:label "The system shall be able to move"
+	ci MobilityReq  : mission:Requirement //
+	
+	@rdfs:label "The system shall be able to perform science activities"
+	ci ScienceActReq  : mission:Requirement //
+	[
+		mission:isRefinedBy PicturesOfInterest
+		mission:isRefinedBy NightimeScience
+		mission:isRefinedBy DaytimeScience
+	]
+	
+	//  (starlight = natural light environment of 0.0001 lx)
+	@rdfs:label "The system shall be able to perform  science activities during night time"
+	ci NightimeScience  : mission:Requirement //example:FunctionalRequirement
+	
+	@rdfs:label "The system shall be able to perform exploration activities during daytime"
+	ci DaytimeScience  : mission:Requirement //example:FunctionalRequirement
+	
+	@rdfs:label "The system shall be able to perform night time driving"
+	ci NightDriving  : mission:Requirement //example:FunctionalRequirement
+	[
+		mission:refines MobilityReq
+	]
+	
+	@rdfs:label "The system shall be able to illuminate 25m in the direction of motion"
+	ci IlluminationDriving  : mission:Requirement [
+		mission:refines NightDriving  //example:FunctionalRequirement
+		mission:hasRationale "Stakeholder"
+	]
+	
+
+	
+//	@rdfs:label "The system shall be able to drive for 25m"
+//	ci NightDistance  : mission:Requirement [
+//		mission:refines IlluminationDriving //example:NonFunctionalRequirement
+//	]
+	
+	@rdfs:label "The system shall be able to take pictures of objects of interest"
+	ci PicturesOfInterest  : mission:Requirement 
+	[
+		mission:isRefinedBy PictureRange
+		mission:isRefinedBy PictureEnvironment
+//		mission:specifies mfunctions:CameraPerformsPicturetaking
+	]
+	
+	@rdfs:label "The system shall be able to take pictures of objects of interest at a maximum distance of 10m"
+	ci PictureRange  : mission:Requirement 
+//	[
+//		mission:refines PicturesOfInterest  //example:Non-FunctionalRequirement
+//		// allocated state variable distance=10
+//	]
+
+	@rdfs:label "The system shall be able to take pictures of objects of interest under a minimum illumination of 3 lx"
+	ci PictureEnvironment  : mission:Requirement 
+//	[
+//		mission:refines PicturesOfInterest
+//	]
+
+// Are these requirements or a design decision from Req: PictureEnvironment
+//	@rdfs:label "The illumination system shall be able to provide 170 lm while nighttime driving"
+//	ci LmNighttimeDriving  : mission:Requirement 
+//	
+//	@rdfs:label "The illumination system shall be able to provide 300 lm while nighttime science activities"
+//	ci LmNighttimeScienceAct  : mission:Requirement
+	
+	/* This Req is covered by Autonomy time requirement
+	@rdfs:label "The system shall be able to take pictures of objects of interest for up to 5h"
+	ci PicturetakingDuration  : mission:Requirement [
+		mission:refines PicturesOfInterest  //example:Non-FunctionalRequirement
+		// add 5h as a state variable -> behavior ontology not published
+	]
+	*/
+	@rdfs:label "The system shall be able to generate energy"
+	ci EnergyGeneration  : mission:Requirement 
+	
+	@rdfs:label "The system shall be able to store energy"
+	ci EnergyStore  : mission:Requirement
 }
