@@ -1,0 +1,7 @@
+vocabulary bundle <http://example.com/rover/vocabulary/bundle#> as ^bundle {
+	includes <http://purl.org/dc/elements/1.1/> as dc
+	
+	includes <http://imce.jpl.nasa.gov/foundation/base#> as base
+
+	includes <http://imce.jpl.nasa.gov/foundation/mission#> as mission
+}
