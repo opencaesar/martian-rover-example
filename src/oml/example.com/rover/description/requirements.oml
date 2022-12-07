@@ -7,9 +7,7 @@ description <http://example.com/rover/description/requirements#> as requirements
 
 	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
 
-	uses <http://imce.jpl.nasa.gov/foundation/project#> as project
 
-	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
 	
 	@rdfs:label "The system shall be able to explore"
 	ci ExplorationReq  : mission:Requirement //
