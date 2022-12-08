@@ -1,2 +1,92 @@
+@dc:title "Functions"
 description <http://example.com/rover/description/functions#> as functions {
+	
+	uses <http://purl.org/dc/elements/1.1/> as dc
+
+	uses <http://www.w3.org/2000/01/rdf-schema#> as rdfs
+
+	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
+	
+	uses <http://imce.jpl.nasa.gov/foundation/base#> as base
+
+	extends <http://example.com/rover/description/requirements#> as requirements
+	
+	extends <http://example.com/rover/description/components#> as components
+
+	
+	ci Explore : mission:Function [
+		mission:invokes Driving
+		mission:invokes PerformScienceActivities
+		mission:invokes ManagePower
+	]
+	
+	ci ManagePower : mission:Function 	
+
+	
+	ci Driving : mission:Function [
+		mission:invokes NighttimeDriving
+		mission:invokes DaytimeDriving
+	]
+	
+	ci DaytimeDriving : mission:Function
+	
+//	ci Nighttime : mission:Environment // conditions under which a Component performs some Function
+	
+	// Operational Context: Night
+	ci NighttimeDriving : mission:Function 
+	[
+		mission:invokes Illuminating
+//		base:aggregates Nighttime   
+	// Invoked by Driving & While Nighttime == TRUE
+	]
+	
+	ci PerformScienceActivities : mission:Function [
+		mission:invokes Picturetaking
+	]
+	
+	ci PicturetakingNighttime : mission:Function [
+		mission:invokes Illuminating
+	]
+	
+	ci PicturetakingDaytime : mission:Function 
+	
+	ci Picturetaking : mission:Function [
+		mission:invokes PicturetakingNighttime
+		mission:invokes PicturetakingDaytime
+	]
+	
+	
+	ci Illuminating : mission:Function 
+	
+	
+
+	/* What if there are 3 functions associated to the illumination device:
+	 * Provide low illumination
+	 * Provide high illumination
+	 * Be commandable -> toggle between different levels of illumination
+	 * 
+	 * Would it mean that the parent function illuminating invokes these 3 functions?
+	 */
+
+	
+	/* Performs relationships */
+	
+	ri PictureTakingbyPayload : mission:Performs [
+		from components:SciencePayload
+		to Picturetaking
+	]
+	
+	ri IlluminatingbyIlluminationDevice : mission:Performs
+	[
+		from components:IlluminationSubsystem
+		to Illuminating
+//		base:aggregates Nighttime
+	]
+	
+	ri ManagePowerbyPowerSubS : mission:Performs [
+		from components:PowerSubsystem
+		to ManagePower
+	]
+	
+	
 }
