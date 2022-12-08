@@ -1,0 +1,33 @@
+description <http://example.com/rover/description/Illu_functions#> as Illu_functions {
+	
+	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
+
+	extends <http://example.com/rover/description/functions#> as functions
+
+	extends <http://example.com/rover/description/components#> as components
+	
+	ci ProvideLowIllumination : mission:Function
+	
+	ci ProvideHighIllumination : mission:Function
+	
+	ci BeCommandable : mission:Function [
+		mission:invokes TurnOffIllumination
+		mission:invokes TurnOnIllumination
+	]
+	
+	ci TurnOnIllumination : mission:Function
+	
+	ci TurnOffIllumination : mission:Function
+	
+	ref ci functions:Illuminating [
+		mission:invokes ProvideHighIllumination
+		mission:invokes ProvideLowIllumination
+		mission:invokes BeCommandable 
+	]
+	
+	ri CommandIlluwithCntrl : mission:Performs [
+		from components:Controller
+		to BeCommandable
+	]
+	
+}

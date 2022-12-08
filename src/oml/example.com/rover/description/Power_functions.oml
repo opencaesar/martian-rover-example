@@ -1,0 +1,36 @@
+description <http://example.com/rover/description/Power_functions#> as Power_functions {
+	
+	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
+
+	extends <http://example.com/rover/description/functions#> as functions
+
+	extends <http://example.com/rover/description/components#> as components
+	
+	ci StorePower : mission:Function 
+	
+	ci GeneratePower : mission:Function
+	
+	ci DistributePower : mission:Function
+	
+	
+	ref ci functions:ManagePower [
+		mission:invokes StorePower
+		mission:invokes GeneratePower
+		mission:invokes DistributePower 
+	]
+	
+	ri GeneratePowerwithSolarPanel : mission:Performs [
+		from components:SolarPanel
+		to GeneratePower
+	]
+	
+	ri StorePowerwithBattery : mission:Performs [
+		from components:Battery
+		to StorePower
+	]
+	
+	ri DistributePowerwithPCntrl : mission:Performs [
+		from components:PowerController
+		to DistributePower
+	]
+}
