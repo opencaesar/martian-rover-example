@@ -58,14 +58,16 @@ configurations {
  * Dependency versions
  */
 ext { 
-    coreVersion = '+'
+    //coreVersion = '+'
+    imceVersion = '+'
 }
 
 /*
  * The OML dependencies
  */
 dependencies {
-    oml "io.opencaesar.ontologies:core-vocabularies:$coreVersion"
+    //oml "io.opencaesar.ontologies:core-vocabularies:$coreVersion"
+    oml "io.opencaesar.ontologies:imce-vocabularies:$imceVersion"
 }
 
 /*
