@@ -1,2 +1,103 @@
+@dc:title "Components"
 description <http://example.com/rover/description/components#> as components {
+	
+	uses <http://purl.org/dc/elements/1.1/> as dc
+
+//	uses <http://www.w3.org/2000/01/rdf-schema#> as rdfs
+
+	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
+	
+	uses <http://imce.jpl.nasa.gov/foundation/base#> as base
+	
+
+		// Rover system
+
+	ci MartianRover : mission:Component [
+		base:aggregates IlluminationSubsystem
+		base:aggregates OtherSubsystems		
+		base:aggregates SciencePayload
+		base:aggregates PowerSubsystem
+//		example:hasMass 3000
+	]
+	
+	ci SciencePayload : mission:Component [
+		base:aggregates Camera
+//		example:hasId "dffd"
+//		example:hasMass 3000
+	]
+	
+	ci IlluminationSubsystem : mission:Component [
+//		base:aggregates SolarPanel
+//		base:aggregates Battery		
+		base:aggregates IlluminationDevice
+		base:aggregates Controller
+		base:aggregates OnOffSwitch	
+		base:aggregates Resistance
+		base:aggregates Bulbselector
+//		base:aggregates ChargeDischargeSwitch
+
+	]	
+
+	ci IlluminationDevice : mission:Component [
+		base:aggregates LampA
+		base:aggregates LampB
+	]
+	
+	ci PowerSubsystem : mission:Component [
+		base:aggregates SolarPanel
+		base:aggregates Battery			
+		base:aggregates PowerController
+		base:aggregates ChargeDischargeSwitch
+
+	]
+	
+	ci PowerController : mission:Component [
+		base:hasIdentifier "IC-05"
+	]
+	
+	ci SolarPanel : mission:Component [
+		base:hasIdentifier "SP-01"
+	]
+	
+	ci Camera : mission:Component [
+		base:hasIdentifier "CAM-11"
+	]
+
+	
+	ci Battery : mission:Component [
+		base:hasIdentifier "B-01"
+	]
+
+	ci OnOffSwitch : mission:Component	[
+		base:hasIdentifier "S_OF-01"
+	]
+	
+	ci ChargeDischargeSwitch : mission:Component [
+		base:hasIdentifier "S_CD-01"
+	]
+	
+	ci Bulbselector : mission:Component	[
+		base:hasIdentifier "B_S-01"
+	]
+		
+
+	ci LampA : mission:Component [
+		base:hasIdentifier "Lamp-01"
+	]
+	
+	
+	ci LampB : mission:Component [
+		base:hasIdentifier "Lamp-01"
+	]	
+	
+	ci Controller : mission:Component [
+		base:hasIdentifier "Con-01"
+	]		
+
+	ci Resistance : mission:Component [
+		base:hasIdentifier "R-01"
+	]		
+	
+	ci OtherSubsystems : mission:Component	
+	
 }
