@@ -7,6 +7,8 @@ description <http://example.com/rover/description/requirements#> as requirements
 
 	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
 
+	extends <http://example.com/rover/description/functions#> as functions
+
 
 	
 	@rdfs:label "The system shall be able to explore"
@@ -17,10 +19,10 @@ description <http://example.com/rover/description/requirements#> as requirements
 	]
 	
 	@rdfs:label "The system shall be autonomous for up to 5h during night time"
-	ci AutonomyTime  : mission:Requirement //
+	ci AutonomyTimeReq  : mission:Requirement //
 	[
 		mission:refines NightimeScience
-		mission:refines NightDriving
+		mission:refines NightDrivingReq
 		mission:isRefinedBy EnergyGeneration
 		mission:isRefinedBy EnergyStore
 	]
@@ -36,6 +38,11 @@ description <http://example.com/rover/description/requirements#> as requirements
 		mission:isRefinedBy DaytimeScience
 	]
 	
+/* Would a separate requirement be needed for the illumination? how would it relate to the requirements of illumination during driving and nighttime science activities?
+ * Do the requirements of illumination during driving and nighttime science activities refine the Req of illumination?
+	@rdfs:label "The system shall be able to illuminate its surroundings "
+	ci IlluminationReq  : mission:Requirement 	
+	*/	
 	//  (starlight = natural light environment of 0.0001 lx)
 	@rdfs:label "The system shall be able to perform  science activities during night time"
 	ci NightimeScience  : mission:Requirement //example:FunctionalRequirement
@@ -44,14 +51,14 @@ description <http://example.com/rover/description/requirements#> as requirements
 	ci DaytimeScience  : mission:Requirement //example:FunctionalRequirement
 	
 	@rdfs:label "The system shall be able to perform night time driving"
-	ci NightDriving  : mission:Requirement //example:FunctionalRequirement
+	ci NightDrivingReq  : mission:Requirement //example:FunctionalRequirement
 	[
 		mission:refines MobilityReq
 	]
 	
 	@rdfs:label "The system shall be able to illuminate 25m in the direction of motion"
 	ci IlluminationDriving  : mission:Requirement [
-		mission:refines NightDriving  //example:FunctionalRequirement
+		mission:refines NightDrivingReq  //example:FunctionalRequirement
 		mission:hasRationale "Stakeholder"
 	]
 	
@@ -67,18 +74,23 @@ description <http://example.com/rover/description/requirements#> as requirements
 	[
 		mission:isRefinedBy PictureRange
 		mission:isRefinedBy PictureEnvironment
+		mission:specifies functions:PictureTakingbyPayload
 //		mission:specifies mfunctions:CameraPerformsPicturetaking
 	]
 	
 	@rdfs:label "The system shall be able to take pictures of objects of interest at a maximum distance of 10m"
-	ci PictureRange  : mission:Requirement 
+	ci PictureRange  : mission:Requirement [
+		mission:specifies functions:IlluminatingbyIlluminationDevice
+	]
 //	[
 //		mission:refines PicturesOfInterest  //example:Non-FunctionalRequirement
 //		// allocated state variable distance=10
 //	]
 
 	@rdfs:label "The system shall be able to take pictures of objects of interest under a minimum illumination of 3 lx"
-	ci PictureEnvironment  : mission:Requirement 
+	ci PictureEnvironment  : mission:Requirement [
+		mission:specifies functions:IlluminatingbyIlluminationDevice
+	]
 //	[
 //		mission:refines PicturesOfInterest
 //	]
