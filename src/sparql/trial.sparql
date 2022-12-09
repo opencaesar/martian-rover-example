@@ -1,0 +1,7 @@
+PREFIX mission:   <http://imce.jpl.nasa.gov/foundation/mission#>
+
+SELECT DISTINCT ?x 
+
+WHERE {
+	?x a mission:Requirement
+}
