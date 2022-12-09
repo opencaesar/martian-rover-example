@@ -9,16 +9,19 @@ description <http://example.com/rover/description/requirements#> as requirements
 
 	extends <http://example.com/rover/description/functions#> as functions
 
+	extends <http://example.com/rover/description/Illu_functions#> as Illu_functions
 
-	
-	@rdfs:label "The system shall be able to explore"
+
+	// shall be able to explore smth //surface of mars
+	@rdfs:label "The system shall explore"
 	ci ExplorationReq  : mission:Requirement //
 	[
 		mission:isRefinedBy MobilityReq
 		mission:isRefinedBy ScienceActReq
+		mission:isRefinedBy IlluminationReq
 	]
 	
-	@rdfs:label "The system shall be autonomous for up to 5h during night time"
+	@rdfs:label "The system shall operate for up to 5h during night time"
 	ci AutonomyTimeReq  : mission:Requirement //
 	[
 		mission:refines NightimeScience
@@ -27,10 +30,18 @@ description <http://example.com/rover/description/requirements#> as requirements
 		mission:isRefinedBy EnergyStore
 	]
 	
+	@rdfs:label "The system shall be able to illuminate surroundings"
+	ci IlluminationReq  : mission:Requirement [
+		mission:specifies functions:IlluminatingbyIlluminationDevice 
+		mission:isRefinedBy ToggleIlluminationReq
+		mission:isRefinedBy IlluminationDriving
+	]
+	
+	
 	@rdfs:label "The system shall be able to move"
 	ci MobilityReq  : mission:Requirement //
 	
-	@rdfs:label "The system shall be able to perform science activities"
+	@rdfs:label "The system shall perform science activities"
 	ci ScienceActReq  : mission:Requirement //
 	[
 		mission:isRefinedBy PicturesOfInterest
@@ -44,32 +55,35 @@ description <http://example.com/rover/description/requirements#> as requirements
 	ci IlluminationReq  : mission:Requirement 	
 	*/	
 	//  (starlight = natural light environment of 0.0001 lx)
-	@rdfs:label "The system shall be able to perform  science activities during night time"
+	@rdfs:label "The system shall perform  science activities during night time"
 	ci NightimeScience  : mission:Requirement //example:FunctionalRequirement
 	
-	@rdfs:label "The system shall be able to perform exploration activities during daytime"
+	@rdfs:label "The system shall perform exploration activities during daytime"
 	ci DaytimeScience  : mission:Requirement //example:FunctionalRequirement
 	
-	@rdfs:label "The system shall be able to perform night time driving"
+	@rdfs:label "The system shall perform night time driving"
 	ci NightDrivingReq  : mission:Requirement //example:FunctionalRequirement
 	[
 		mission:refines MobilityReq
 	]
 	
-	@rdfs:label "The system shall be able to illuminate 25m in the direction of motion"
+	@rdfs:label "The system shall illuminate 25m in the direction of motion"
 	ci IlluminationDriving  : mission:Requirement [
 		mission:refines NightDrivingReq  //example:FunctionalRequirement
 		mission:hasRationale "Stakeholder"
 	]
 	
-
+	@rdfs:label "The system shall be able to toggle illumination on/off"
+	ci ToggleIlluminationReq  : mission:Requirement [
+		mission:specifies Illu_functions:TurnOffIlluminationwithSwitch
+	]
 	
 //	@rdfs:label "The system shall be able to drive for 25m"
 //	ci NightDistance  : mission:Requirement [
 //		mission:refines IlluminationDriving //example:NonFunctionalRequirement
 //	]
 	
-	@rdfs:label "The system shall be able to take pictures of objects of interest"
+	@rdfs:label "The system shall take pictures of objects of interest"
 	ci PicturesOfInterest  : mission:Requirement 
 	[
 		mission:isRefinedBy PictureRange
@@ -78,7 +92,7 @@ description <http://example.com/rover/description/requirements#> as requirements
 //		mission:specifies mfunctions:CameraPerformsPicturetaking
 	]
 	
-	@rdfs:label "The system shall be able to take pictures of objects of interest at a maximum distance of 10m"
+	@rdfs:label "The system shall take pictures of objects of interest at a maximum distance of 10m"
 	ci PictureRange  : mission:Requirement [
 		mission:specifies functions:IlluminatingbyIlluminationDevice
 	]
@@ -87,7 +101,7 @@ description <http://example.com/rover/description/requirements#> as requirements
 //		// allocated state variable distance=10
 //	]
 
-	@rdfs:label "The system shall be able to take pictures of objects of interest under a minimum illumination of 3 lx"
+	@rdfs:label "The system shall take pictures of objects of interest under a minimum illumination of 3 lx"
 	ci PictureEnvironment  : mission:Requirement [
 		mission:specifies functions:IlluminatingbyIlluminationDevice
 	]
@@ -96,10 +110,11 @@ description <http://example.com/rover/description/requirements#> as requirements
 //	]
 
 // Are these requirements or a design decision from Req: PictureEnvironment
-//	@rdfs:label "The illumination system shall be able to provide 170 lm while nighttime driving"
+// To add
+//	@rdfs:label "The illumination system shall provide a minimum 170 lm while nighttime driving"
 //	ci LmNighttimeDriving  : mission:Requirement 
 //	
-//	@rdfs:label "The illumination system shall be able to provide 300 lm while nighttime science activities"
+//	@rdfs:label "The illumination system shall provide a minimum 300 lm while nighttime science activities"
 //	ci LmNighttimeScienceAct  : mission:Requirement
 	
 	/* This Req is covered by Autonomy time requirement
@@ -109,9 +124,9 @@ description <http://example.com/rover/description/requirements#> as requirements
 		// add 5h as a state variable -> behavior ontology not published
 	]
 	*/
-	@rdfs:label "The system shall be able to generate energy"
+	@rdfs:label "The system shall generate energy"
 	ci EnergyGeneration  : mission:Requirement 
 	
-	@rdfs:label "The system shall be able to store energy"
+	@rdfs:label "The system shall store energy"
 	ci EnergyStore  : mission:Requirement
 }
