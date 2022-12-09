@@ -5,10 +5,36 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 	extends <http://example.com/rover/description/functions#> as functions
 
 	extends <http://example.com/rover/description/components#> as components
+
+	uses <http://bipm.org/jcgm/vim4#> as vim4
+
+	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
 	
-	ci ProvideLowIllumination : mission:Function
+	ci ProvideLowIllumination : mission:Function[
+		mission:invokes ProvideLowIllumination1
+		mission:invokes ProvideLowIllumination2
+	]
+	
+	/* explicit redundancy: Low Illumination can be provided with either LampA or Lamp B */
+	ci ProvideLowIllumination1 : mission:Function
+	ci ProvideLowIllumination2 : mission:Function
+	
+	ri ProvideLowIlluminationwithLampA : mission:Performs [
+		from components:LampA
+		to ProvideLowIllumination1
+	] 
+	
+	ri ProvideLowIlluminationwithLampB : mission:Performs [
+		from components:LampB
+		to ProvideLowIllumination2
+	] 
 	
 	ci ProvideHighIllumination : mission:Function
+	
+	ri ProvideHighIlluminationwithDevice : mission:Performs [
+		from components:IlluminationDevice
+		to ProvideHighIllumination
+	]
 	
 	ci BeCommandable : mission:Function [
 		mission:invokes TurnOffIllumination
@@ -18,6 +44,16 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 	ci TurnOnIllumination : mission:Function
 	
 	ci TurnOffIllumination : mission:Function
+	
+	ri TurnOnIlluminationwithSwitch : mission:Performs [
+		from components:OnOffSwitch
+		to TurnOnIllumination
+	]
+	
+	ri TurnOffIlluminationwithSwitch : mission:Performs [
+		from components:OnOffSwitch
+		to TurnOffIllumination
+	]
 	
 	ref ci functions:Illuminating [
 		mission:invokes ProvideHighIllumination
