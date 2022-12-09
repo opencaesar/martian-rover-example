@@ -1,0 +1,22 @@
+#All triples between either requirements
+
+PREFIX base:   <http://imce.jpl.nasa.gov/foundation/base#>
+PREFIX mission:   <http://imce.jpl.nasa.gov/foundation/mission#>
+PREFIX rdfs:      <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT  ?element1  ?relation ?element2 ?element1type ?element2type
+#SELECT DISTINCT   ?relation # to see what type of relations there are between requirements
+
+#SELECT (count( DISTINCT ?element1) as ?c)
+
+
+WHERE {
+	?element1 ?relation ?element2 .
+	#UNION {?element2 ?relation ?element1} .
+	?element1  a mission:Requirement . bind("Requirement" as ?element1type)
+	?element2 a mission:Requirement . bind("Requirement" as ?element2type)
+
+	FILTER(STRSTARTS(STR(?relation), "http://imce.jpl.nasa.gov/foundation/")) .
+	FILTER(!STRSTARTS(STRAFTER(STR(?relation),"#"), "is")) . # to exclude inverse relations 
+
+}
