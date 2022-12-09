@@ -1,0 +1,17 @@
+PREFIX base: <http://imce.jpl.nasa.gov/foundation/base#>
+PREFIX mission: <http://imce.jpl.nasa.gov/foundation/mission#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oml: <http://opencaesar.io/oml#>
+
+SELECT DISTINCT ?functionalRqmt ?performingElement ?function
+
+#SELECT (count(DISTINCT ?functionalRqmt) as ?c)
+
+WHERE {
+?functionalRqmt a mission:Requirement ;
+                mission:specifies [
+                                     a mission:Performs ;
+                                       oml:hasSource ?performingElement ;
+                                       oml:hasTarget ?function ;
+                                  ] .
+}
