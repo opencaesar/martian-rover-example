@@ -3,7 +3,7 @@ vocabulary bundle <http://example.com/rover/vocabulary/bundle#> as ^bundle {
 	extends <http://imce.jpl.nasa.gov/foundation/bundle#>
 	
 	
-	includes <http://purl.org/dc/elements/1.1/> as dc
+//	includes <http://purl.org/dc/elements/1.1/> as dc
 	
 
 //	
