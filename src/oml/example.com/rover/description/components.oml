@@ -87,7 +87,7 @@ description <http://example.com/rover/description/components#> as components {
 	
 	
 	ci LampB : mission:Component [
-		base:hasIdentifier "Lamp-01"
+		base:hasIdentifier "Lamp-02"
 	]	
 	
 	ci Controller : mission:Component [
