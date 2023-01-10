@@ -11,6 +11,8 @@ description <http://example.com/rover/description/requirements#> as requirements
 
 	extends <http://example.com/rover/description/Illu_functions#> as Illu_functions
 
+	extends <http://example.com/rover/description/Power_functions#> as Power_functions
+
 
 	// shall be able to explore smth //surface of mars
 	@rdfs:label "The system shall explore"
@@ -57,6 +59,9 @@ description <http://example.com/rover/description/requirements#> as requirements
 	//  (starlight = natural light environment of 0.0001 lx)
 	@rdfs:label "The system shall perform  science activities during night time"
 	ci NightimeScience  : mission:Requirement //example:FunctionalRequirement
+//	[
+//		mission:isRefinedBy ToggleIlluminationReq
+//	]
 	
 	@rdfs:label "The system shall perform exploration activities during daytime"
 	ci DaytimeScience  : mission:Requirement //example:FunctionalRequirement
@@ -76,6 +81,7 @@ description <http://example.com/rover/description/requirements#> as requirements
 	@rdfs:label "The system shall be able to toggle illumination on/off"
 	ci ToggleIlluminationReq  : mission:Requirement [
 		mission:specifies Illu_functions:TurnOffIlluminationwithSwitch
+		mission:specifies Illu_functions:TurnOnIlluminationwithSwitch
 	]
 	
 //	@rdfs:label "The system shall be able to drive for 25m"
@@ -128,5 +134,7 @@ description <http://example.com/rover/description/requirements#> as requirements
 	ci EnergyGeneration  : mission:Requirement 
 	
 	@rdfs:label "The system shall store energy"
-	ci EnergyStore  : mission:Requirement
+	ci EnergyStore  : mission:Requirement [
+		mission:specifies Power_functions:StorePowerwithBattery
+	]
 }
