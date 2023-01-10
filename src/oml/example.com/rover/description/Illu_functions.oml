@@ -22,11 +22,13 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 	ri ProvideLowIlluminationwithLampA : mission:Performs [
 		from components:LampA
 		to ProvideLowIllumination1
+//		to ProvideLowIllumination
 	] 
 	
 	ri ProvideLowIlluminationwithLampB : mission:Performs [
 		from components:LampB
 		to ProvideLowIllumination2
+//		to ProvideLowIllumination
 	] 
 	
 	ci ProvideHighIllumination : mission:Function
