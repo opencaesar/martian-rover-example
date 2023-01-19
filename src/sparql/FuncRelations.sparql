@@ -3,6 +3,7 @@
 PREFIX base:   <http://imce.jpl.nasa.gov/foundation/base#>
 PREFIX mission:   <http://imce.jpl.nasa.gov/foundation/mission#>
 PREFIX rdfs:      <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ext: <http://example.com/rover/vocabulary/extension#>
 
 SELECT DISTINCT  ?element1  ?relation ?element2 ?element1type ?element2type
 
@@ -12,7 +13,7 @@ WHERE {
 	?element2 a mission:Function .  bind("Function" as ?element2type)
 	
 
-	FILTER(STRSTARTS(STR(?relation), "http://imce.jpl.nasa.gov/foundation/")) .
+	FILTER(STRSTARTS(STR(?relation), "http://imce.jpl.nasa.gov/foundation/") || STRSTARTS(STR(?relation), "http://example.com/rover/vocabulary/") ) .
 	FILTER(!STRSTARTS(STRAFTER(STR(?relation),"#"), "is")) . # to exclude inverse relations 
 
 }
