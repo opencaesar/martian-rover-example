@@ -1,0 +1,35 @@
+vocabulary <http://example.com/rover/vocabulary/extension#> as ext {
+	
+	extends <http://purl.org/dc/elements/1.1/> as dc
+	extends <http://www.w3.org/2000/01/rdf-schema#> as rdfs
+	extends <http://imce.jpl.nasa.gov/foundation/mission#> as mission
+	
+	
+// In order to show Redundancy in the model
+	@rdfs:label "InvokesAlternative"
+	@dc:description "A [=Function=] must have [=invokesAlternative=] relation to zero or at least two [=Function=]s. 
+	If there are several [=invokesAlternative=] only one of them needs to be able to be performed for the higher function to be performed." 
+	// If there is an invokesAlternative there should be more than one function with this relation.
+	
+	relation entity InvokesAlternative 
+//	:> mission:Invokes 
+	[
+		from mission:Function
+		to mission:Function
+		@rdfs:label "invokesAlt"
+		forward invokesAlt
+		@rdfs:label "is invokedAlt by"
+		reverse isInvokedAltBy
+	]
+	
+	@rdfs:label "Invokes"
+	@dc:description "A [=Function=] must [=invokes=] the [=Function=]s."
+	relation entity Invokes :> InvokesAlternative [
+		from mission:Function
+		to mission:Function
+		@rdfs:label "invokes"
+		forward invokes
+		@rdfs:label "is invoked by"
+		reverse isInvokedBy
+	]
+	}
