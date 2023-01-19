@@ -9,10 +9,14 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 	uses <http://bipm.org/jcgm/vim4#> as vim4
 
 	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
+
+	uses <http://example.com/rover/vocabulary/extension#> as ext
 	
 	ci ProvideLowIllumination : mission:Function[
-		mission:invokes ProvideLowIllumination1
-		mission:invokes ProvideLowIllumination2
+		ext:invokesAlt ProvideLowIllumination1
+		ext:invokesAlt ProvideLowIllumination2
+//		mission:invokes ProvideLowIllumination1
+//		mission:invokes ProvideLowIllumination2
 	]
 	
 	/* explicit redundancy: Low Illumination can be provided with either LampA or Lamp B */
@@ -31,12 +35,36 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 //		to ProvideLowIllumination
 	] 
 	
+/* 	---Redefining ProvideHighIllumination to same level of decomposition as ProvideLowIllumination---
 	ci ProvideHighIllumination : mission:Function
 	
 	ri ProvideHighIlluminationwithDevice : mission:Performs [
 		from components:IlluminationDevice
 		to ProvideHighIllumination
+	]*/
+
+	ci ProvideHighIllumination : mission:Function [
+		mission:invokes ProvideHighIllumination1
+		mission:invokes ProvideHighIllumination2
 	]
+	
+	ci ProvideHighIllumination1 : mission:Function
+	ci ProvideHighIllumination2 : mission:Function
+	
+	ri ProvideHighIlluminationwithLampA : mission:Performs [
+		from components:LampA
+		to ProvideHighIllumination1
+	] 
+	
+	ri ProvideHighIlluminationwithLampB : mission:Performs [
+		from components:LampB
+		to ProvideHighIllumination2
+	] 
+	
+//	ri ProvideHighIlluminationMore : mission:Performs [
+//		from components:LampA
+//		to ProvideHighIllumination2
+//	] 
 	
 	ci BeCommandable : mission:Function [
 		mission:invokes TurnOffIllumination
