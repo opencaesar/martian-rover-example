@@ -12,5 +12,6 @@ WHERE {
     { ?element1  a mission:Requirement . bind("Requirement" as ?element1type)} UNION { ?element1  a mission:Component . bind("Component" as ?element1type)} UNION { ?element1  a mission:Function . bind("Function" as ?element1type) } .
     { ?element2 a mission:Requirement . bind("Requirement" as ?element2type) } UNION { ?element2 a mission:Component . bind("Component" as ?element2type)} UNION { ?element2 a mission:Function . bind("Function" as ?element2type) } .
     FILTER(STRSTARTS(STR(?relation), "http://imce.jpl.nasa.gov/foundation/") || STRSTARTS(STR(?relation), "http://example.com/rover/vocabulary/") ) .
+    FILTER(!STRSTARTS(STR(?relation), "http://imce.jpl.nasa.gov/foundation/mission#invokes")) .
     FILTER(!STRSTARTS(STRAFTER(STR(?relation),"#"), "is")) . # to exclude inverse relations 
 }
