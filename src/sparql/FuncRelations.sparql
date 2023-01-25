@@ -13,7 +13,8 @@ WHERE {
 	?element2 a mission:Function .  bind("Function" as ?element2type)
 	
 
-	FILTER(STRSTARTS(STR(?relation), "http://imce.jpl.nasa.gov/foundation/") || STRSTARTS(STR(?relation), "http://example.com/rover/vocabulary/") ) .
+	#FILTER(STRSTARTS(STR(?relation), "http://imce.jpl.nasa.gov/foundation/") || STRSTARTS(STR(?relation), "http://example.com/rover/vocabulary/") ) .
+	FILTER(STRSTARTS(STR(?relation), "http://example.com/rover/vocabulary/") ) .
 	FILTER(!STRSTARTS(STRAFTER(STR(?relation),"#"), "is")) . # to exclude inverse relations 
 
 }
