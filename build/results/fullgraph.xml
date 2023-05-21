@@ -1,0 +1,1151 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="element1"/>
+    <variable name="relation"/>
+    <variable name="element2"/>
+    <variable name="element1type"/>
+    <variable name="element2type"/>
+  </head>
+  <results>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Driving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#DaytimeDriving</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Driving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#NighttimeDriving</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#NighttimeDriving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Explore</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Driving</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Explore</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#ManagePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Explore</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#PerformScienceActivities</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#ManagePower</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Power_functions#GeneratePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#ManagePower</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Power_functions#StorePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#ManagePower</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Power_functions#DistributePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#PerformScienceActivities</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Picturetaking</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#BeCommandable</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#OnOffSwitch</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Resistance</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#IlluminationDevice</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Controller</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Bulbselector</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#ManagePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#ChargeDischargeSwitch</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#SolarPanel</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Battery</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#PowerController</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Picturetaking</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#PicturetakingDaytime</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Picturetaking</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#PicturetakingNighttime</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#SciencePayload</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Picturetaking</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#SciencePayload</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Camera</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#PicturetakingNighttime</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination2</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination1</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#LampB</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination2</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#LampB</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination2</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesAlt</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination2</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesAlt</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination1</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#BeCommandable</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#TurnOffIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#BeCommandable</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#TurnOnIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#OnOffSwitch</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#TurnOffIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#OnOffSwitch</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#TurnOnIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#SolarPanel</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Power_functions#GeneratePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationDevice</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#LampB</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationDevice</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#LampA</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#Controller</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#BeCommandable</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#MartianRover</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#MartianRover</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#MartianRover</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#SciencePayload</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#MartianRover</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#OtherSubsystems</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#EnergyGeneration</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#AutonomyTimeReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#AutonomyTimeReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#NightimeScience</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#AutonomyTimeReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#NightDrivingReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#Battery</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Power_functions#StorePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#ToggleIlluminationReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#IlluminationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#ScienceActReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ExplorationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#DaytimeScience</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ScienceActReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#PicturesOfInterest</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ScienceActReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#NightimeScience</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ScienceActReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerController</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Power_functions#DistributePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#PictureEnvironment</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#PicturesOfInterest</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#IlluminationDriving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#IlluminationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#IlluminationDriving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#NightDrivingReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#IlluminationReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ExplorationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#NightDrivingReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#MobilityReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#LampA</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination1</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#LampA</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#performs</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination1</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#PictureRange</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#PicturesOfInterest</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#MobilityReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ExplorationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#EnergyStore</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#AutonomyTimeReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

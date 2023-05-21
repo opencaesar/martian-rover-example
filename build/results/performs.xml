@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="functionalRqmt"/>
+    <variable name="performingElement"/>
+    <variable name="function"/>
+  </head>
+  <results>
+    <result>
+      <binding name="functionalRqmt">
+        <uri>http://example.com/rover/description/requirements#ToggleIlluminationReq</uri>
+      </binding>
+      <binding name="performingElement">
+        <uri>http://example.com/rover/description/components#OnOffSwitch</uri>
+      </binding>
+      <binding name="function">
+        <uri>http://example.com/rover/description/Illu_functions#TurnOffIllumination</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="functionalRqmt">
+        <uri>http://example.com/rover/description/requirements#ToggleIlluminationReq</uri>
+      </binding>
+      <binding name="performingElement">
+        <uri>http://example.com/rover/description/components#OnOffSwitch</uri>
+      </binding>
+      <binding name="function">
+        <uri>http://example.com/rover/description/Illu_functions#TurnOnIllumination</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="functionalRqmt">
+        <uri>http://example.com/rover/description/requirements#PicturesOfInterest</uri>
+      </binding>
+      <binding name="performingElement">
+        <uri>http://example.com/rover/description/components#SciencePayload</uri>
+      </binding>
+      <binding name="function">
+        <uri>http://example.com/rover/description/functions#Picturetaking</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="functionalRqmt">
+        <uri>http://example.com/rover/description/requirements#PictureEnvironment</uri>
+      </binding>
+      <binding name="performingElement">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="function">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="functionalRqmt">
+        <uri>http://example.com/rover/description/requirements#IlluminationReq</uri>
+      </binding>
+      <binding name="performingElement">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="function">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="functionalRqmt">
+        <uri>http://example.com/rover/description/requirements#PictureRange</uri>
+      </binding>
+      <binding name="performingElement">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="function">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="functionalRqmt">
+        <uri>http://example.com/rover/description/requirements#EnergyStore</uri>
+      </binding>
+      <binding name="performingElement">
+        <uri>http://example.com/rover/description/components#Battery</uri>
+      </binding>
+      <binding name="function">
+        <uri>http://example.com/rover/description/Power_functions#StorePower</uri>
+      </binding>
+    </result>
+  </results>
+</sparql>

@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="element1"/>
+    <variable name="relation"/>
+    <variable name="element2"/>
+    <variable name="element1type"/>
+    <variable name="element2type"/>
+  </head>
+  <results>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Driving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#DaytimeDriving</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Driving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#NighttimeDriving</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#NighttimeDriving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Explore</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Driving</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Explore</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#ManagePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Explore</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#PerformScienceActivities</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#ManagePower</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Power_functions#GeneratePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#ManagePower</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Power_functions#StorePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#ManagePower</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Power_functions#DistributePower</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#PerformScienceActivities</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Picturetaking</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#BeCommandable</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Picturetaking</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#PicturetakingDaytime</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#Picturetaking</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#PicturetakingNighttime</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/functions#PicturetakingNighttime</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/functions#Illuminating</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination2</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideHighIllumination1</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesAlt</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination2</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesAlt</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#ProvideLowIllumination1</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#BeCommandable</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#TurnOffIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/Illu_functions#BeCommandable</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://example.com/rover/vocabulary/extension#invokesComp</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/Illu_functions#TurnOnIllumination</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Function</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Function</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

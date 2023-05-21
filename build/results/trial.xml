@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="x"/>
+  </head>
+  <results>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#EnergyGeneration</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#AutonomyTimeReq</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#ToggleIlluminationReq</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#ScienceActReq</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#DaytimeScience</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#PicturesOfInterest</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#NightimeScience</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#ExplorationReq</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#PictureEnvironment</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#IlluminationDriving</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#IlluminationReq</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#NightDrivingReq</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#PictureRange</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#MobilityReq</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="x">
+        <uri>http://example.com/rover/description/requirements#EnergyStore</uri>
+      </binding>
+    </result>
+  </results>
+</sparql>

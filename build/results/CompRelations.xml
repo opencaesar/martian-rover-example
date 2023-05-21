@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="element1"/>
+    <variable name="relation"/>
+    <variable name="element2"/>
+    <variable name="element1type"/>
+    <variable name="element2type"/>
+  </head>
+  <results>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#OnOffSwitch</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Resistance</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#IlluminationDevice</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Controller</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Bulbselector</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#ChargeDischargeSwitch</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#SolarPanel</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Battery</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#PowerController</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#SciencePayload</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#Camera</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationDevice</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#LampB</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#IlluminationDevice</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#LampA</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#MartianRover</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#IlluminationSubsystem</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#MartianRover</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#PowerSubsystem</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#MartianRover</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#SciencePayload</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/components#MartianRover</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/base#aggregates</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/components#OtherSubsystems</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Component</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Component</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

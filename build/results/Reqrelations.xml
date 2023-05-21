@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="element1"/>
+    <variable name="relation"/>
+    <variable name="element2"/>
+    <variable name="element1type"/>
+    <variable name="element2type"/>
+  </head>
+  <results>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#EnergyGeneration</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#AutonomyTimeReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#AutonomyTimeReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#NightimeScience</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#AutonomyTimeReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#NightDrivingReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#ToggleIlluminationReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#IlluminationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#ScienceActReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ExplorationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#DaytimeScience</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ScienceActReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#PicturesOfInterest</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ScienceActReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#NightimeScience</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ScienceActReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#PictureEnvironment</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#PicturesOfInterest</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#IlluminationDriving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#IlluminationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#IlluminationDriving</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#NightDrivingReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#IlluminationReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ExplorationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#NightDrivingReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#MobilityReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#PictureRange</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#PicturesOfInterest</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#MobilityReq</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#ExplorationReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="element1">
+        <uri>http://example.com/rover/description/requirements#EnergyStore</uri>
+      </binding>
+      <binding name="relation">
+        <uri>http://imce.jpl.nasa.gov/foundation/mission#refines</uri>
+      </binding>
+      <binding name="element2">
+        <uri>http://example.com/rover/description/requirements#AutonomyTimeReq</uri>
+      </binding>
+      <binding name="element1type">
+        <literal>Requirement</literal>
+      </binding>
+      <binding name="element2type">
+        <literal>Requirement</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>
