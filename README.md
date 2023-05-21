@@ -1,6 +1,5 @@
 # Martian Rover Example
 
-
 This repository contains an example of a Mars rover described with OML and an obsolescence analysis with a Jupyter Notebook. 
 
 ## Reference for the OML model
