@@ -1,4 +1,5 @@
 /.gradle/
+*.aird
 /build/*
 !/build/results
 /.fuseki/
