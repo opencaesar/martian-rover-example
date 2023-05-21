@@ -15,8 +15,8 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 	ci ProvideLowIllumination : mission:Function[
 		ext:invokesAlt ProvideLowIllumination1
 		ext:invokesAlt ProvideLowIllumination2
-//		mission:invokes ProvideLowIllumination1
-//		mission:invokes ProvideLowIllumination2
+//		ext:invokesComp ProvideLowIllumination1
+//		ext:invokesComp ProvideLowIllumination2
 	]
 	
 	/* explicit redundancy: Low Illumination can be provided with either LampA or Lamp B */
@@ -44,8 +44,8 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 	]*/
 
 	ci ProvideHighIllumination : mission:Function [
-		mission:invokes ProvideHighIllumination1
-		mission:invokes ProvideHighIllumination2
+		ext:invokesComp ProvideHighIllumination1
+		ext:invokesComp ProvideHighIllumination2
 	]
 	
 	ci ProvideHighIllumination1 : mission:Function
@@ -53,12 +53,12 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 	
 	ri ProvideHighIlluminationwithLampA : mission:Performs [
 		from components:LampA
-		to ProvideHighIllumination1
+		to ProvideHighIllumination1 // ProvideHighIllumination1
 	] 
 	
 	ri ProvideHighIlluminationwithLampB : mission:Performs [
 		from components:LampB
-		to ProvideHighIllumination2
+		to ProvideHighIllumination2   //ProvideHighIllumination2
 	] 
 	
 //	ri ProvideHighIlluminationMore : mission:Performs [
@@ -67,8 +67,8 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 //	] 
 	
 	ci BeCommandable : mission:Function [
-		mission:invokes TurnOffIllumination
-		mission:invokes TurnOnIllumination
+		ext:invokesComp TurnOffIllumination
+		ext:invokesComp TurnOnIllumination
 	]
 	
 	ci TurnOnIllumination : mission:Function
@@ -86,9 +86,9 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 	]
 	
 	ref ci functions:Illuminating [
-		mission:invokes ProvideHighIllumination
-		mission:invokes ProvideLowIllumination
-		mission:invokes BeCommandable 
+		ext:invokesComp ProvideHighIllumination
+		ext:invokesComp ProvideLowIllumination
+		ext:invokesComp BeCommandable 
 	]
 	
 	ri CommandIlluwithCntrl : mission:Performs [

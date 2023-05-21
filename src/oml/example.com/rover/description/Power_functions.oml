@@ -5,6 +5,8 @@ description <http://example.com/rover/description/Power_functions#> as Power_fun
 	extends <http://example.com/rover/description/functions#> as functions
 
 	extends <http://example.com/rover/description/components#> as components
+
+	uses <http://example.com/rover/vocabulary/extension#> as ext
 	
 	ci StorePower : mission:Function 
 	
@@ -14,9 +16,9 @@ description <http://example.com/rover/description/Power_functions#> as Power_fun
 	
 	
 	ref ci functions:ManagePower [
-		mission:invokes StorePower
-		mission:invokes GeneratePower
-		mission:invokes DistributePower 
+		ext:invokesComp StorePower
+		ext:invokesComp GeneratePower
+		ext:invokesComp DistributePower 
 	]
 	
 	ri GeneratePowerwithSolarPanel : mission:Performs [

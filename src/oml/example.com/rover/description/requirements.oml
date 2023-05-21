@@ -15,12 +15,14 @@ description <http://example.com/rover/description/requirements#> as requirements
 
 
 	// shall be able to explore smth //surface of mars
-	@rdfs:label "The system shall explore"
+	@rdfs:label "The system shall explore the surface of Mars"
 	ci ExplorationReq  : mission:Requirement //
 	[
 		mission:isRefinedBy MobilityReq
 		mission:isRefinedBy ScienceActReq
 		mission:isRefinedBy IlluminationReq
+		
+		mission:specifies functions:ExplorewithRover
 	]
 	
 	@rdfs:label "The system shall operate for up to 5h during night time"
@@ -32,7 +34,7 @@ description <http://example.com/rover/description/requirements#> as requirements
 		mission:isRefinedBy EnergyStore
 	]
 	
-	@rdfs:label "The system shall be able to illuminate surroundings"
+	@rdfs:label "The system shall be able to illuminate its surroundings"
 	ci IlluminationReq  : mission:Requirement [
 		mission:specifies functions:IlluminatingbyIlluminationDevice 
 		mission:isRefinedBy ToggleIlluminationReq

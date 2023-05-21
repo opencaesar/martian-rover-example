@@ -13,19 +13,27 @@ description <http://example.com/rover/description/functions#> as functions {
 	
 	extends <http://example.com/rover/description/components#> as components
 
+	uses <http://example.com/rover/vocabulary/extension#> as ext
+
 	
 	ci Explore : mission:Function [
-		mission:invokes Driving
-		mission:invokes PerformScienceActivities
-		mission:invokes ManagePower
+		ext:invokesComp Driving
+		ext:invokesComp PerformScienceActivities
+		ext:invokesComp ManagePower
 	]
+	
+	
+	ri ExplorewithRover : mission:Performs [
+		from components:MartianRover
+		to Explore
+	] 
 	
 	ci ManagePower : mission:Function 	
 
 	
 	ci Driving : mission:Function [
-		mission:invokes NighttimeDriving
-		mission:invokes DaytimeDriving
+		ext:invokesComp NighttimeDriving
+		ext:invokesComp DaytimeDriving
 	]
 	
 	ci DaytimeDriving : mission:Function
@@ -35,24 +43,24 @@ description <http://example.com/rover/description/functions#> as functions {
 	// Operational Context: Night
 	ci NighttimeDriving : mission:Function 
 	[
-		mission:invokes Illuminating
+		ext:invokesComp Illuminating
 //		base:aggregates Nighttime   
 	// Invoked by Driving & While Nighttime == TRUE
 	]
 	
 	ci PerformScienceActivities : mission:Function [
-		mission:invokes Picturetaking
+		ext:invokesComp Picturetaking
 	]
 	
 	ci PicturetakingNighttime : mission:Function [
-		mission:invokes Illuminating
+		ext:invokesComp Illuminating
 	]
 	
 	ci PicturetakingDaytime : mission:Function 
 	
 	ci Picturetaking : mission:Function [
-		mission:invokes PicturetakingNighttime
-		mission:invokes PicturetakingDaytime
+		ext:invokesComp PicturetakingNighttime
+		ext:invokesComp PicturetakingDaytime
 	]
 	
 	
