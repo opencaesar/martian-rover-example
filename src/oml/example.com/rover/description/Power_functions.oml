@@ -8,30 +8,30 @@ description <http://example.com/rover/description/Power_functions#> as Power_fun
 
 	uses <http://example.com/rover/vocabulary/extension#> as ext
 	
-	ci StorePower : mission:Function 
+	instance StorePower : mission:Function 
 	
-	ci GeneratePower : mission:Function
+	instance GeneratePower : mission:Function
 	
-	ci DistributePower : mission:Function
+	instance DistributePower : mission:Function
 	
 	
-	ref ci functions:ManagePower [
+	ref instance functions:ManagePower [
 		ext:invokesComp StorePower
 		ext:invokesComp GeneratePower
 		ext:invokesComp DistributePower 
 	]
 	
-	ri GeneratePowerwithSolarPanel : mission:Performs [
+	relation instance GeneratePowerwithSolarPanel : mission:Performs [
 		from components:SolarPanel
 		to GeneratePower
 	]
 	
-	ri StorePowerwithBattery : mission:Performs [
+	relation instance StorePowerwithBattery : mission:Performs [
 		from components:Battery
 		to StorePower
 	]
 	
-	ri DistributePowerwithPCntrl : mission:Performs [
+	relation instance DistributePowerwithPCntrl : mission:Performs [
 		from components:PowerController
 		to DistributePower
 	]

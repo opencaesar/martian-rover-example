@@ -11,26 +11,25 @@ vocabulary <http://example.com/rover/vocabulary/extension#> as ext {
 	If there are several [=invokesAlternative=] at least one of the target functions shall be performed for the source function to be fulfilled." 
 	// If there is an invokesAlternative there should be more than one function with this relation.
 	
-	relation entity InvokesAlternative :> mission:Invokes 
-	[
+	relation entity InvokesAlternative [
 		from mission:Function
 		to mission:Function
 		@rdfs:label "invokesAlt"
 		forward invokesAlt
 		@rdfs:label "is invokedAlt by"
 		reverse isInvokedAltBy
-	]
+	] < mission:Invokes
 	
 	@rdfs:label "InvokesCompulsory"
 	@dc:description "A [=Function=] must have [=invokesCompulsory=] relation to zero or more [=Function=]s. 
 	It implies that all target functions are needed to fulfill the source function."
 
-	relation entity InvokesComp :> mission:Invokes [
+	relation entity InvokesComp [
 		from mission:Function
 		to mission:Function
 		@rdfs:label "invokesComp"
 		forward invokesComp
 		@rdfs:label "is invokedComp by"
 		reverse isInvokedCompBy
-	]
-	}
+	] < mission:Invokes
+}

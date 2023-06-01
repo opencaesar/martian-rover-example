@@ -1,18 +1,14 @@
 description <http://example.com/rover/description/Illu_functions#> as Illu_functions {
 	
-	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
-
 	extends <http://example.com/rover/description/functions#> as functions
 
 	extends <http://example.com/rover/description/components#> as components
-
-	uses <http://bipm.org/jcgm/vim4#> as vim4
 
 	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
 
 	uses <http://example.com/rover/vocabulary/extension#> as ext
 	
-	ci ProvideLowIllumination : mission:Function[
+	instance ProvideLowIllumination : mission:Function[
 		ext:invokesAlt ProvideLowIllumination1
 		ext:invokesAlt ProvideLowIllumination2
 //		ext:invokesComp ProvideLowIllumination1
@@ -20,78 +16,78 @@ description <http://example.com/rover/description/Illu_functions#> as Illu_funct
 	]
 	
 	/* explicit redundancy: Low Illumination can be provided with either LampA or Lamp B */
-	ci ProvideLowIllumination1 : mission:Function
-	ci ProvideLowIllumination2 : mission:Function
+	instance ProvideLowIllumination1 : mission:Function
+	instance ProvideLowIllumination2 : mission:Function
 	
-	ri ProvideLowIlluminationwithLampA : mission:Performs [
+	relation instance ProvideLowIlluminationwithLampA : mission:Performs [
 		from components:LampA
 		to ProvideLowIllumination1
 //		to ProvideLowIllumination
 	] 
 	
-	ri ProvideLowIlluminationwithLampB : mission:Performs [
+	relation instance ProvideLowIlluminationwithLampB : mission:Performs [
 		from components:LampB
 		to ProvideLowIllumination2
 //		to ProvideLowIllumination
 	] 
 	
 /* 	---Redefining ProvideHighIllumination to same level of decomposition as ProvideLowIllumination---
-	ci ProvideHighIllumination : mission:Function
+	instance ProvideHighIllumination : mission:Function
 	
-	ri ProvideHighIlluminationwithDevice : mission:Performs [
+	relation instance ProvideHighIlluminationwithDevice : mission:Performs [
 		from components:IlluminationDevice
 		to ProvideHighIllumination
 	]*/
 
-	ci ProvideHighIllumination : mission:Function [
+	instance ProvideHighIllumination : mission:Function [
 		ext:invokesComp ProvideHighIllumination1
 		ext:invokesComp ProvideHighIllumination2
 	]
 	
-	ci ProvideHighIllumination1 : mission:Function
-	ci ProvideHighIllumination2 : mission:Function
+	instance ProvideHighIllumination1 : mission:Function
+	instance ProvideHighIllumination2 : mission:Function
 	
-	ri ProvideHighIlluminationwithLampA : mission:Performs [
+	relation instance ProvideHighIlluminationwithLampA : mission:Performs [
 		from components:LampA
 		to ProvideHighIllumination1 // ProvideHighIllumination1
 	] 
 	
-	ri ProvideHighIlluminationwithLampB : mission:Performs [
+	relation instance ProvideHighIlluminationwithLampB : mission:Performs [
 		from components:LampB
 		to ProvideHighIllumination2   //ProvideHighIllumination2
 	] 
 	
-//	ri ProvideHighIlluminationMore : mission:Performs [
+//	relation instance ProvideHighIlluminationMore : mission:Performs [
 //		from components:LampA
 //		to ProvideHighIllumination2
 //	] 
 	
-	ci BeCommandable : mission:Function [
+	instance BeCommandable : mission:Function [
 		ext:invokesComp TurnOffIllumination
 		ext:invokesComp TurnOnIllumination
 	]
 	
-	ci TurnOnIllumination : mission:Function
+	instance TurnOnIllumination : mission:Function
 	
-	ci TurnOffIllumination : mission:Function
+	instance TurnOffIllumination : mission:Function
 	
-	ri TurnOnIlluminationwithSwitch : mission:Performs [
+	relation instance TurnOnIlluminationwithSwitch : mission:Performs [
 		from components:OnOffSwitch
 		to TurnOnIllumination
 	]
 	
-	ri TurnOffIlluminationwithSwitch : mission:Performs [
+	relation instance TurnOffIlluminationwithSwitch : mission:Performs [
 		from components:OnOffSwitch
 		to TurnOffIllumination
 	]
 	
-	ref ci functions:Illuminating [
+	ref instance functions:Illuminating [
 		ext:invokesComp ProvideHighIllumination
 		ext:invokesComp ProvideLowIllumination
 		ext:invokesComp BeCommandable 
 	]
 	
-	ri CommandIlluwithCntrl : mission:Performs [
+	relation instance CommandIlluwithCntrl : mission:Performs [
 		from components:Controller
 		to BeCommandable
 	]

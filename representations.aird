@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:oml="http://opencaesar.io/oml" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis uid="_I2kqAHWtEe2Ysvd-fk9Hwg" selectedViews="_MCcwIHWtEe2Ysvd-fk9Hwg _MCvEAHWtEe2Ysvd-fk9Hwg" version="15.0.0.202209061200">
+  <viewpoint:DAnalysis uid="_I2kqAHWtEe2Ysvd-fk9Hwg" selectedViews="_MCcwIHWtEe2Ysvd-fk9Hwg _MCvEAHWtEe2Ysvd-fk9Hwg" version="15.1.0.202211301600">
     <semanticResources>src/oml/example.com/rover/description/bundle.oml</semanticResources>
     <semanticResources>src/oml/example.com/rover/description/components.oml</semanticResources>
     <semanticResources>src/oml/example.com/rover/description/functions.oml</semanticResources>
@@ -61,25 +61,26 @@
     <semanticResources>src/oml/example.com/rover/description/Illu_functions.oml</semanticResources>
     <semanticResources>src/oml/example.com/rover/description/Power_functions.oml</semanticResources>
     <semanticResources>src/oml/example.com/rover/vocabulary/extension.oml</semanticResources>
+    <semanticResources>build/oml/www.w3.org/2003/11/swrlb.oml</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_MCcwIHWtEe2Ysvd-fk9Hwg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_PsuCcHWtEe2Ysvd-fk9Hwg" name="Requirements Diagram" repPath="#_PsVA4HWtEe2Ysvd-fk9Hwg" changeId="0eb34078-a705-4acb-890c-75ac1e7e3290">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_PsuCcHWtEe2Ysvd-fk9Hwg" name="Requirements Diagram" repPath="#_PsVA4HWtEe2Ysvd-fk9Hwg" changeId="1685580431667">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']"/>
         <target xmi:type="oml:Description" href="src/oml/example.com/rover/description/requirements.oml#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_pzGhknYSEe2Ysvd-fk9Hwg" name="Functions Diagram" repPath="#_pzGhkHYSEe2Ysvd-fk9Hwg" changeId="7ead4383-c939-490b-9b2e-9e0a0014d12b">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_pzGhknYSEe2Ysvd-fk9Hwg" name="Functions Diagram" repPath="#_pzGhkHYSEe2Ysvd-fk9Hwg" changeId="1685580431667">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']"/>
         <target xmi:type="oml:Description" href="src/oml/example.com/rover/description/functions.oml#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_4pveUnYVEe2Ysvd-fk9Hwg" name="Components Diagram" repPath="#_4pveUHYVEe2Ysvd-fk9Hwg" changeId="fea6bbc2-d28a-4c62-a91e-d493c38ada16">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_4pveUnYVEe2Ysvd-fk9Hwg" name="Components Diagram" repPath="#_4pveUHYVEe2Ysvd-fk9Hwg" changeId="1685580431667">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']"/>
         <target xmi:type="oml:Description" href="src/oml/example.com/rover/description/components.oml#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qaLN8nbpEe2Ysvd-fk9Hwg" name="Illumination Functional Viewer" repPath="#_qaLN8HbpEe2Ysvd-fk9Hwg" changeId="61eeb148-1090-4d51-9808-c41cd75aad22">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qaLN8nbpEe2Ysvd-fk9Hwg" name="Illumination Functional Viewer" repPath="#_qaLN8HbpEe2Ysvd-fk9Hwg" changeId="1685580431667">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']"/>
         <target xmi:type="oml:Description" href="src/oml/example.com/rover/description/Illu_functions.oml#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Ul5UQJD-Ee24mfQj0BzzAQ" name="Power_functions Diagram" repPath="#_Ul24AJD-Ee24mfQj0BzzAQ" changeId="bebf256b-8517-41e5-8037-a1f4a981d149">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Ul5UQJD-Ee24mfQj0BzzAQ" name="Power_functions Diagram" repPath="#_Ul24AJD-Ee24mfQj0BzzAQ" changeId="1685580431667">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']"/>
         <target xmi:type="oml:Description" href="src/oml/example.com/rover/description/Power_functions.oml#/"/>
       </ownedRepresentationDescriptors>
@@ -525,12 +526,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_ZdPuwHcVEe299Yc_PSm1rg" name="mission:hasRationale = &quot;Stakeholder&quot;" tooltipText="mission:hasRationale = &quot;Stakeholder&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.8/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.8/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_ZdPuwXcVEe299Yc_PSm1rg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.8/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.8/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_PtxLVHWtEe2Ysvd-fk9Hwg" name="«mission:Requirement»&#xA;PictureRange" tooltipText="«mission:Requirement»&#xA;PictureRange" incomingEdges="_wEx8VHcVEe299Yc_PSm1rg">
@@ -578,13 +579,13 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_j3p1TnWuEe2Ysvd-fk9Hwg" name="mission:isRefinedBy" sourceNode="_PtuvEnWtEe2Ysvd-fk9Hwg" targetNode="_PtzAgnWtEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_j3qcUHWuEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_j3qcUXWuEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XgI0GHWwEe2Ysvd-fk9Hwg" name="«mission:Requirement»&#xA;DaytimeScience" tooltipText="«mission:Requirement»&#xA;DaytimeScience" incomingEdges="_ZdRkB3cVEe299Yc_PSm1rg">
       <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/rover/description/requirements.oml#DaytimeScience"/>
@@ -631,13 +632,13 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_DHClSnW2Ee2Ysvd-fk9Hwg" name="mission:isRefinedBy" sourceNode="_PtuvEnWtEe2Ysvd-fk9Hwg" targetNode="_DG-T0XW2Ee2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_DHClS3W2Ee2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_DHClTHW2Ee2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_HTUo0XYUEe2Ysvd-fk9Hwg" name="«mission:Requirement»&#xA;AutonomyTimeReq" tooltipText="«mission:Requirement»&#xA;AutonomyTimeReq" outgoingEdges="_HTWd_nYUEe2Ysvd-fk9Hwg _HTWeA3YUEe2Ysvd-fk9Hwg _HTWeDXYUEe2Ysvd-fk9Hwg _HTWeF3YUEe2Ysvd-fk9Hwg">
       <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/rover/description/requirements.oml#AutonomyTimeReq"/>
@@ -662,40 +663,40 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_HTWd_nYUEe2Ysvd-fk9Hwg" name="mission:isRefinedBy" sourceNode="_HTUo0XYUEe2Ysvd-fk9Hwg" targetNode="_PtxyYnWtEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.2"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_HTWd_3YUEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_HTWeAHYUEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.2"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_HTWeA3YUEe2Ysvd-fk9Hwg" name="mission:refines" sourceNode="_HTUo0XYUEe2Ysvd-fk9Hwg" targetNode="_XgI0HnWwEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_HTWeBHYUEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_HTWeBXYUEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_HTWeDXYUEe2Ysvd-fk9Hwg" name="mission:isRefinedBy" sourceNode="_HTUo0XYUEe2Ysvd-fk9Hwg" targetNode="_PtyZcnWtEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.3"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.3"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_HTWeDnYUEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_HTWeD3YUEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.3"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.3"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_HTWeF3YUEe2Ysvd-fk9Hwg" name="mission:refines" sourceNode="_HTUo0XYUEe2Ysvd-fk9Hwg" targetNode="_HTVP0nYUEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_HTWeGHYUEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_HTWeGXYUEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.1/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_ZdOgpXcVEe299Yc_PSm1rg" name="«mission:Requirement»&#xA;IlluminationReq" tooltipText="«mission:Requirement»&#xA;IlluminationReq" outgoingEdges="_wExVcHcVEe299Yc_PSm1rg _5lI4UHcVEe299Yc_PSm1rg" incomingEdges="_deQtPHcVEe299Yc_PSm1rg">
       <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/rover/description/requirements.oml#IlluminationReq"/>
@@ -709,58 +710,58 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ZdRkAncVEe299Yc_PSm1rg" name="mission:isRefinedBy" sourceNode="_PtzAgnWtEe2Ysvd-fk9Hwg" targetNode="_PtuIAnWtEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ZdRkA3cVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ZdRkBHcVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ZdRkB3cVEe299Yc_PSm1rg" name="mission:isRefinedBy" sourceNode="_PtzAgnWtEe2Ysvd-fk9Hwg" targetNode="_XgI0GHWwEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.2"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ZdRkCHcVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ZdRkCXcVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.2"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ZdSLAncVEe299Yc_PSm1rg" name="mission:refines" sourceNode="_HTVP0nYUEe2Ysvd-fk9Hwg" targetNode="_DG-T0XW2Ee2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.7/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.7/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ZdSLA3cVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ZdSLBHcVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.7/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.7/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ZdSLDHcVEe299Yc_PSm1rg" name="mission:isRefinedBy" sourceNode="_PtzAgnWtEe2Ysvd-fk9Hwg" targetNode="_XgI0HnWwEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ZdSLDXcVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ZdSLDncVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.4/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ZdSyEHcVEe299Yc_PSm1rg" name="mission:refines" sourceNode="_PtxLUXWtEe2Ysvd-fk9Hwg" targetNode="_HTVP0nYUEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.8/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.8/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ZdSyEXcVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ZdSyEncVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.8/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.8/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_deQtPHcVEe299Yc_PSm1rg" name="mission:isRefinedBy" sourceNode="_PtuvEnWtEe2Ysvd-fk9Hwg" targetNode="_ZdOgpXcVEe299Yc_PSm1rg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.2"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_deQtPXcVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_deQtPncVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.0/@ownedLinks.2"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_wEvgEHcVEe299Yc_PSm1rg" name="«mission:Requirement»&#xA;ToggleIlluminationReq" tooltipText="«mission:Requirement»&#xA;ToggleIlluminationReq" incomingEdges="_wExVcHcVEe299Yc_PSm1rg">
       <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/rover/description/requirements.oml#ToggleIlluminationReq"/>
@@ -774,40 +775,40 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_wExVcHcVEe299Yc_PSm1rg" name="mission:isRefinedBy" sourceNode="_ZdOgpXcVEe299Yc_PSm1rg" targetNode="_wEvgEHcVEe299Yc_PSm1rg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.2/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.2/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_wEx8UHcVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_wEx8UXcVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.2/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.2/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_wEx8VHcVEe299Yc_PSm1rg" name="mission:isRefinedBy" sourceNode="_PtuIAnWtEe2Ysvd-fk9Hwg" targetNode="_PtxLVHWtEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.10/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.10/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_wEx8VXcVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_wEx8VncVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.10/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.10/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_wEx8WXcVEe299Yc_PSm1rg" name="mission:isRefinedBy" sourceNode="_PtuIAnWtEe2Ysvd-fk9Hwg" targetNode="_XgJbInWwEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.10/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.10/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_wEx8WncVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_wEx8W3cVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.10/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.10/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_5lI4UHcVEe299Yc_PSm1rg" name="mission:isRefinedBy" sourceNode="_ZdOgpXcVEe299Yc_PSm1rg" targetNode="_PtxLUXWtEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.2/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.2/@ownedLinks.2"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5lI4UXcVEe299Yc_PSm1rg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_5lI4UncVEe299Yc_PSm1rg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.2/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/requirements.oml#//@ownedStatements.2/@ownedLinks.2"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_PsjDUHWtEe2Ysvd-fk9Hwg"/>
@@ -1247,22 +1248,22 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_MCRrP3YUEe2Ysvd-fk9Hwg" name="ext:invokesComp" sourceNode="_MCREKHYUEe2Ysvd-fk9Hwg" targetNode="_MCQdG3YUEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_MCRrQHYUEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_MCRrQXYUEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_MCRrRHYUEe2Ysvd-fk9Hwg" name="ext:invokesComp" sourceNode="_MCREKHYUEe2Ysvd-fk9Hwg" targetNode="_pzGhl3YSEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_MCRrRXYUEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_MCRrRnYUEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_RgpHonYwEe2Ysvd-fk9Hwg" name="«mission:Function»&#xA;Illuminating" tooltipText="«mission:Function»&#xA;Illuminating" incomingEdges="_JId_7XbtEe2Ysvd-fk9Hwg _pqC4KdCnEe2hluM3HVXBPA _pqC4M9CnEe2hluM3HVXBPA">
       <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/rover/description/functions.oml#Illuminating"/>
@@ -1309,13 +1310,13 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_QgnhCHbnEe2Ysvd-fk9Hwg" name="ext:invokesComp" sourceNode="_MCREKHYUEe2Ysvd-fk9Hwg" targetNode="_NbtlgnbnEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.2"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_QgnhCXbnEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_QgnhCnbnEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.0/@ownedLinks.2"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_mzQ8PHbqEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;components:PowerSubsystem" tooltipText="«mission:Component»&#xA;components:PowerSubsystem" outgoingEdges="_mzRjSHbqEe2Ysvd-fk9Hwg">
       <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/rover/description/components.oml#PowerSubsystem"/>
@@ -1390,67 +1391,67 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='RelationInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pqCRHNCnEe2hluM3HVXBPA" name="ext:invokesComp" sourceNode="_pzJk6HYSEe2Ysvd-fk9Hwg" targetNode="_zZq58HZkEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.9/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.9/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pqCRHdCnEe2hluM3HVXBPA" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pqCRHtCnEe2hluM3HVXBPA" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.9/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.9/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pqCRIdCnEe2hluM3HVXBPA" name="ext:invokesComp" sourceNode="_pzJk6HYSEe2Ysvd-fk9Hwg" targetNode="_zZqS-HZkEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.9/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.9/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pqCRItCnEe2hluM3HVXBPA" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pqCRI9CnEe2hluM3HVXBPA" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.9/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.9/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pqCRJtCnEe2hluM3HVXBPA" name="ext:invokesComp" sourceNode="_MCQdG3YUEe2Ysvd-fk9Hwg" targetNode="_pzJk6HYSEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.6/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.6/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pqC4INCnEe2hluM3HVXBPA" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pqC4IdCnEe2hluM3HVXBPA" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.6/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.6/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pqC4JNCnEe2hluM3HVXBPA" name="ext:invokesComp" sourceNode="_pzGhl3YSEe2Ysvd-fk9Hwg" targetNode="_pzJk4nYSEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.3/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.3/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pqC4JdCnEe2hluM3HVXBPA" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pqC4JtCnEe2hluM3HVXBPA" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.3/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.3/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pqC4KdCnEe2hluM3HVXBPA" name="ext:invokesComp" sourceNode="_pzJk4nYSEe2Ysvd-fk9Hwg" targetNode="_RgpHonYwEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.5/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.5/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pqC4KtCnEe2hluM3HVXBPA" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pqC4K9CnEe2hluM3HVXBPA" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.5/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.5/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pqC4LtCnEe2hluM3HVXBPA" name="ext:invokesComp" sourceNode="_pzGhl3YSEe2Ysvd-fk9Hwg" targetNode="_MCREInYUEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.3/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.3/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pqC4L9CnEe2hluM3HVXBPA" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pqC4MNCnEe2hluM3HVXBPA" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.3/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.3/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pqC4M9CnEe2hluM3HVXBPA" name="ext:invokesComp" sourceNode="_zZq58HZkEe2Ysvd-fk9Hwg" targetNode="_RgpHonYwEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.7/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.7/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pqC4NNCnEe2hluM3HVXBPA" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pqC4NdCnEe2hluM3HVXBPA" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.7/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/functions.oml#//@ownedStatements.7/@ownedLinks.0"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_pzGhkXYSEe2Ysvd-fk9Hwg"/>
@@ -1930,12 +1931,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSNuRHbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;B-01&quot;" tooltipText="base:hasIdentifier = &quot;B-01&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.8/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.8/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSNuRXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.8/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.8/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4pwFZnYVEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;ChargeDischargeSwitch" tooltipText="«mission:Component»&#xA;ChargeDischargeSwitch" incomingEdges="_lSO8fXbsEe2Ysvd-fk9Hwg">
@@ -1949,12 +1950,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSNuRnbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;S_CD-01&quot;" tooltipText="base:hasIdentifier = &quot;S_CD-01&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.10/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.10/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSNuR3bsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.10/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.10/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4pwscHYVEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;OtherSubsystems" tooltipText="«mission:Component»&#xA;OtherSubsystems" incomingEdges="_4p1lCXYVEe2Ysvd-fk9Hwg">
@@ -1979,12 +1980,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSMgJnbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;Lamp-02&quot;" tooltipText="base:hasIdentifier = &quot;Lamp-02&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.13/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.13/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSMgJ3bsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.13/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.13/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4pxThXYVEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;Resistance" tooltipText="«mission:Component»&#xA;Resistance" incomingEdges="_pwhs0XbsEe2Ysvd-fk9Hwg">
@@ -1998,12 +1999,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSNHMnbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;R-01&quot;" tooltipText="base:hasIdentifier = &quot;R-01&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.15/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.15/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSNHM3bsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.15/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.15/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4pxTiHYVEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;IlluminationDevice" tooltipText="«mission:Component»&#xA;IlluminationDevice" outgoingEdges="_lSOVb3bsEe2Ysvd-fk9Hwg _lSOVdHbsEe2Ysvd-fk9Hwg" incomingEdges="_pwiTuXbsEe2Ysvd-fk9Hwg">
@@ -2039,12 +2040,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSNHNnbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;SP-01&quot;" tooltipText="base:hasIdentifier = &quot;SP-01&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.6/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.6/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSNHN3bsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.6/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.6/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4pxTkXYVEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;MartianRover" tooltipText="«mission:Component»&#xA;MartianRover" outgoingEdges="_4p1lCXYVEe2Ysvd-fk9Hwg _4p2MCXYVEe2Ysvd-fk9Hwg _sDWMeHYaEe2Ysvd-fk9Hwg _lSO8c3bsEe2Ysvd-fk9Hwg">
@@ -2069,12 +2070,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSNuQHbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;S_OF-01&quot;" tooltipText="base:hasIdentifier = &quot;S_OF-01&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.9/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.9/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSNuQXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.9/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.9/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4px6lXYVEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;LampA" tooltipText="«mission:Component»&#xA;LampA" incomingEdges="_lSOVb3bsEe2Ysvd-fk9Hwg">
@@ -2088,12 +2089,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSNuQnbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;Lamp-01&quot;" tooltipText="base:hasIdentifier = &quot;Lamp-01&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.12/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.12/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSNuQ3bsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.12/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.12/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4pyhonYVEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;Controller" tooltipText="«mission:Component»&#xA;Controller" incomingEdges="_pwiTvnbsEe2Ysvd-fk9Hwg">
@@ -2107,12 +2108,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSNHNHbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;Con-01&quot;" tooltipText="base:hasIdentifier = &quot;Con-01&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.14/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.14/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSNHNXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.14/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.14/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4pyhpXYVEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;Camera" tooltipText="«mission:Component»&#xA;Camera" incomingEdges="_4p1lBHYVEe2Ysvd-fk9Hwg">
@@ -2126,12 +2127,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSNHMHbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;CAM-11&quot;" tooltipText="base:hasIdentifier = &quot;CAM-11&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.7/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.7/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSNHMXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.7/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.7/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4pyhqHYVEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;Bulbselector" tooltipText="«mission:Component»&#xA;Bulbselector" incomingEdges="_pwiTtHbsEe2Ysvd-fk9Hwg">
@@ -2145,40 +2146,40 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSMgJHbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;B_S-01&quot;" tooltipText="base:hasIdentifier = &quot;B_S-01&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.11/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.11/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSMgJXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.11/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.11/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4p1lBHYVEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_4pxTi3YVEe2Ysvd-fk9Hwg" targetNode="_4pyhpXYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.1/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.1/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4p1lBXYVEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4p1lBnYVEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.1/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.1/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4p1lCXYVEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_4pxTkXYVEe2Ysvd-fk9Hwg" targetNode="_4pwscHYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4p1lCnYVEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4p1lC3YVEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4p2MCXYVEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_4pxTkXYVEe2Ysvd-fk9Hwg" targetNode="_4pxTi3YVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.2"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4p2MCnYVEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4p2MC3YVEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.2"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_UCw9rHYZEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;PowerSubsystem" tooltipText="«mission:Component»&#xA;PowerSubsystem" outgoingEdges="_lSOVanbsEe2Ysvd-fk9Hwg _lSO8ZHbsEe2Ysvd-fk9Hwg _lSO8bnbsEe2Ysvd-fk9Hwg _lSO8fXbsEe2Ysvd-fk9Hwg" incomingEdges="_sDWMeHYaEe2Ysvd-fk9Hwg">
       <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/rover/description/components.oml#PowerSubsystem"/>
@@ -2202,22 +2203,22 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSMgInbsEe2Ysvd-fk9Hwg" name="base:hasIdentifier = &quot;IC-05&quot;" tooltipText="base:hasIdentifier = &quot;IC-05&quot;">
-        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.5/@ownedPropertyValues.0"/>
-        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.5/@ownedPropertyValues.0"/>
         <ownedStyle xmi:type="diagram:Square" uid="_lSMgI3bsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']/@subNodeMappings[name='Property%20Values']"/>
+        <target xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.5/@ownedPropertyValues.0"/>
+        <semanticElements xmi:type="oml:ScalarPropertyValueAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.5/@ownedPropertyValues.0"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_sDWMeHYaEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_4pxTkXYVEe2Ysvd-fk9Hwg" targetNode="_UCw9rHYZEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.3"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.3"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_sDWMeXYaEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_sDWMenYaEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.3"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.3"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_lSL5MHbsEe2Ysvd-fk9Hwg" name="«mission:Component»&#xA;IlluminationSubsystem" tooltipText="«mission:Component»&#xA;IlluminationSubsystem" outgoingEdges="_pwhs0XbsEe2Ysvd-fk9Hwg _pwiTtHbsEe2Ysvd-fk9Hwg _pwiTuXbsEe2Ysvd-fk9Hwg _pwiTvnbsEe2Ysvd-fk9Hwg _pwiTw3bsEe2Ysvd-fk9Hwg" incomingEdges="_lSO8c3bsEe2Ysvd-fk9Hwg">
       <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/rover/description/components.oml#IlluminationSubsystem"/>
@@ -2231,35 +2232,33 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_lSOVanbsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_UCw9rHYZEe2Ysvd-fk9Hwg" targetNode="_4pxTjnYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_lSOVa3bsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_lSOVbHbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_lSOVb3bsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_4pxTiHYVEe2Ysvd-fk9Hwg" targetNode="_4px6lXYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.3/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.3/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_lSOVcHbsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_lSOVcXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.3/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.3/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_lSOVdHbsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_4pxTiHYVEe2Ysvd-fk9Hwg" targetNode="_4pxTgnYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.3/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.3/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_lSO8YHbsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_lSO8YXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.3/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.3/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_lSO8ZHbsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_UCw9rHYZEe2Ysvd-fk9Hwg" targetNode="_4pwFY3YVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.1"/>
       <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_ksOaYHbuEe2Ysvd-fk9Hwg">
         <hiddenLabels>6001</hiddenLabels>
       </graphicalFilters>
@@ -2268,73 +2267,73 @@
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_lSO8ZnbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_lSO8bnbsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_UCw9rHYZEe2Ysvd-fk9Hwg" targetNode="_UCxkonYZEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.2"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_lSO8b3bsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_lSO8cHbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.2"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_lSO8c3bsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_4pxTkXYVEe2Ysvd-fk9Hwg" targetNode="_lSL5MHbsEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_lSO8dHbsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_lSO8dXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.0/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_lSO8fXbsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_UCw9rHYZEe2Ysvd-fk9Hwg" targetNode="_4pwFZnYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.3"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.3"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_lSO8fnbsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_lSO8f3bsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.3"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.4/@ownedLinks.3"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pwhs0XbsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_lSL5MHbsEe2Ysvd-fk9Hwg" targetNode="_4pxThXYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.3"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.3"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pwiTsHbsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pwiTsXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.3"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.3"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pwiTtHbsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_lSL5MHbsEe2Ysvd-fk9Hwg" targetNode="_4pyhqHYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.4"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.4"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pwiTtXbsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pwiTtnbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.4"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.4"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pwiTuXbsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_lSL5MHbsEe2Ysvd-fk9Hwg" targetNode="_4pxTiHYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pwiTunbsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pwiTu3bsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pwiTvnbsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_lSL5MHbsEe2Ysvd-fk9Hwg" targetNode="_4pyhonYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pwiTv3bsEe2Ysvd-fk9Hwg" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pwiTwHbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pwiTw3bsEe2Ysvd-fk9Hwg" name="base:aggregates" sourceNode="_lSL5MHbsEe2Ysvd-fk9Hwg" targetNode="_4px6knYVEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.2"/>
       <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_X9_0QHbuEe2Ysvd-fk9Hwg">
         <hiddenLabels>6001</hiddenLabels>
       </graphicalFilters>
@@ -2343,6 +2342,8 @@
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pwiTxXbsEe2Ysvd-fk9Hwg" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/components.oml#//@ownedStatements.2/@ownedLinks.2"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_4pveUXYVEe2Ysvd-fk9Hwg"/>
@@ -2915,22 +2916,22 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='RelationInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_jLgFAHsAEe24mfQj0BzzAQ" name="ext:invokesAlt" sourceNode="_qaMcFXbpEe2Ysvd-fk9Hwg" targetNode="_jLdowXsAEe24mfQj0BzzAQ">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.0/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.0/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_jLgFAXsAEe24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_jLgFAnsAEe24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.0/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.0/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_jLgFCnsAEe24mfQj0BzzAQ" name="ext:invokesAlt" sourceNode="_qaMcFXbpEe2Ysvd-fk9Hwg" targetNode="_jLQ0eHsAEe24mfQj0BzzAQ">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.0/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.0/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_jLgFC3sAEe24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_jLgFDHsAEe24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.0/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.0/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_quNyFpEFEe24mfQj0BzzAQ" name="«mission:Function»&#xA;ProvideHighIllumination1" tooltipText="«mission:Function»&#xA;ProvideHighIllumination1" incomingEdges="_quOZS5EFEe24mfQj0BzzAQ _Ii-nIdCbEe2hluM3HVXBPA">
       <target xmi:type="oml:ConceptInstance" href="src/oml/example.com/rover/description/Illu_functions.oml#ProvideHighIllumination1"/>
@@ -2955,67 +2956,67 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@containerMappings[name='ConceptInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_quOZS5EFEe24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_qaMcEnbpEe2Ysvd-fk9Hwg" targetNode="_quNyFpEFEe24mfQj0BzzAQ">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.5/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.5/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_quOZTJEFEe24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_quOZTZEFEe24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.5/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.5/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_quPAOpEFEe24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_qaMcEnbpEe2Ysvd-fk9Hwg" targetNode="_quNyGZEFEe24mfQj0BzzAQ">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.5/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.5/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_quPAO5EFEe24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_quPAPJEFEe24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.5/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.5/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vri5bJaEEe24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_qaMcGHbpEe2Ysvd-fk9Hwg" targetNode="_qaL1A3bpEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.2"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vri5bZaEEe24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vri5bpaEEe24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.2"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vri5cZaEEe24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_qaMcGHbpEe2Ysvd-fk9Hwg" targetNode="_qaMcEnbpEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vri5cpaEEe24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vri5c5aEEe24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vri5dpaEEe24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_qaMcGHbpEe2Ysvd-fk9Hwg" targetNode="_qaMcFXbpEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vri5d5aEEe24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vri5eJaEEe24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.15/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vri5e5aEEe24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_qaL1A3bpEe2Ysvd-fk9Hwg" targetNode="_-rITy3brEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.10/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.10/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vri5fJaEEe24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vri5fZaEEe24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.10/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.10/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vri5gJaEEe24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_qaL1A3bpEe2Ysvd-fk9Hwg" targetNode="_-rITyHbrEe2Ysvd-fk9Hwg">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.10/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.10/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vri5gZaEEe24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vri5gpaEEe24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.10/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Illu_functions.oml#//@ownedStatements.10/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Ii-nHNCbEe2hluM3HVXBPA" name="mission:performs" sourceNode="_4xCoBHb4Ee2Ysvd-fk9Hwg" targetNode="_quNyGZEFEe24mfQj0BzzAQ">
       <target xmi:type="oml:RelationInstance" href="src/oml/example.com/rover/description/Illu_functions.oml#ProvideHighIlluminationwithLampB"/>
@@ -3312,31 +3313,31 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='RelationInstance']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Ul_a7pD-Ee24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_Ul-MyZD-Ee24mfQj0BzzAQ" targetNode="_Ul-MwJD-Ee24mfQj0BzzAQ">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.1"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Ul_a75D-Ee24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Ul_a8JD-Ee24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.1"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.1"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Ul_a85D-Ee24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_Ul-MyZD-Ee24mfQj0BzzAQ" targetNode="_Ul-MxpD-Ee24mfQj0BzzAQ">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.0"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Ul_a9JD-Ee24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Ul_a9ZD-Ee24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.0"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.0"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Ul_a-JD-Ee24mfQj0BzzAQ" name="ext:invokesComp" sourceNode="_Ul-MyZD-Ee24mfQj0BzzAQ" targetNode="_Ul-Mw5D-Ee24mfQj0BzzAQ">
-      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.2"/>
-      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.2"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Ul_a-ZD-Ee24mfQj0BzzAQ" size="2" routingStyle="manhattan" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Ul_a-pD-Ee24mfQj0BzzAQ" labelSize="12" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']/@defaultLayer/@edgeMappings[name='LinkAssertion']"/>
+      <target xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.2"/>
+      <semanticElements xmi:type="oml:LinkAssertion" href="src/oml/example.com/rover/description/Power_functions.oml#//@ownedStatements.3/@ownedLinks.2"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Descriptions']/@ownedRepresentations[name='Description%20Diagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Ul3fEJD-Ee24mfQj0BzzAQ"/>

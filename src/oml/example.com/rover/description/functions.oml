@@ -3,68 +3,62 @@ description <http://example.com/rover/description/functions#> as functions {
 	
 	uses <http://purl.org/dc/elements/1.1/> as dc
 
-	uses <http://www.w3.org/2000/01/rdf-schema#> as rdfs
-
 	uses <http://imce.jpl.nasa.gov/foundation/mission#> as mission
-	
-	uses <http://imce.jpl.nasa.gov/foundation/base#> as base
-
-	extends <http://example.com/rover/description/requirements#> as requirements
 	
 	extends <http://example.com/rover/description/components#> as components
 
 	uses <http://example.com/rover/vocabulary/extension#> as ext
 
 	
-	ci Explore : mission:Function [
+	instance Explore : mission:Function [
 		ext:invokesComp Driving
 		ext:invokesComp PerformScienceActivities
 		ext:invokesComp ManagePower
 	]
 	
 	
-	ri ExplorewithRover : mission:Performs [
+	relation instance ExplorewithRover : mission:Performs [
 		from components:MartianRover
 		to Explore
 	] 
 	
-	ci ManagePower : mission:Function 	
+	instance ManagePower : mission:Function 	
 
 	
-	ci Driving : mission:Function [
+	instance Driving : mission:Function [
 		ext:invokesComp NighttimeDriving
 		ext:invokesComp DaytimeDriving
 	]
 	
-	ci DaytimeDriving : mission:Function
+	instance DaytimeDriving : mission:Function
 	
-//	ci Nighttime : mission:Environment // conditions under which a Component performs some Function
+//	instance Nighttime : mission:Environment // conditions under which a Component performs some Function
 	
 	// Operational Context: Night
-	ci NighttimeDriving : mission:Function 
+	instance NighttimeDriving : mission:Function 
 	[
 		ext:invokesComp Illuminating
 //		base:aggregates Nighttime   
 	// Invoked by Driving & While Nighttime == TRUE
 	]
 	
-	ci PerformScienceActivities : mission:Function [
+	instance PerformScienceActivities : mission:Function [
 		ext:invokesComp Picturetaking
 	]
 	
-	ci PicturetakingNighttime : mission:Function [
+	instance PicturetakingNighttime : mission:Function [
 		ext:invokesComp Illuminating
 	]
 	
-	ci PicturetakingDaytime : mission:Function 
+	instance PicturetakingDaytime : mission:Function 
 	
-	ci Picturetaking : mission:Function [
+	instance Picturetaking : mission:Function [
 		ext:invokesComp PicturetakingNighttime
 		ext:invokesComp PicturetakingDaytime
 	]
 	
 	
-	ci Illuminating : mission:Function 
+	instance Illuminating : mission:Function 
 	
 	
 
@@ -79,19 +73,19 @@ description <http://example.com/rover/description/functions#> as functions {
 	
 	/* Performs relationships */
 	
-	ri PictureTakingbyPayload : mission:Performs [
+	relation instance PictureTakingbyPayload : mission:Performs [
 		from components:SciencePayload
 		to Picturetaking
 	]
 	
-	ri IlluminatingbyIlluminationDevice : mission:Performs
+	relation instance IlluminatingbyIlluminationDevice : mission:Performs
 	[
 		from components:IlluminationSubsystem
 		to Illuminating
 //		base:aggregates Nighttime
 	]
 	
-	ri ManagePowerbyPowerSubS : mission:Performs [
+	relation instance ManagePowerbyPowerSubS : mission:Performs [
 		from components:PowerSubsystem
 		to ManagePower
 	]

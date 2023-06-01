@@ -12,7 +12,7 @@ description <http://example.com/rover/description/components#> as components {
 
 		// Rover system
 
-	ci MartianRover : mission:Component [
+	instance MartianRover : mission:Component [
 		base:aggregates IlluminationSubsystem
 		base:aggregates OtherSubsystems		
 		base:aggregates SciencePayload
@@ -20,13 +20,13 @@ description <http://example.com/rover/description/components#> as components {
 //		example:hasMass 3000
 	]
 	
-	ci SciencePayload : mission:Component [
+	instance SciencePayload : mission:Component [
 		base:aggregates Camera
 //		example:hasId "dffd"
 //		example:hasMass 3000
 	]
 	
-	ci IlluminationSubsystem : mission:Component [
+	instance IlluminationSubsystem : mission:Component [
 //		base:aggregates SolarPanel
 //		base:aggregates Battery		
 		base:aggregates IlluminationDevice
@@ -38,12 +38,12 @@ description <http://example.com/rover/description/components#> as components {
 
 	]	
 
-	ci IlluminationDevice : mission:Component [
+	instance IlluminationDevice : mission:Component [
 		base:aggregates LampA
 		base:aggregates LampB
 	]
 	
-	ci PowerSubsystem : mission:Component [
+	instance PowerSubsystem : mission:Component [
 		base:aggregates SolarPanel
 		base:aggregates Battery			
 		base:aggregates PowerController
@@ -51,53 +51,53 @@ description <http://example.com/rover/description/components#> as components {
 
 	]
 	
-	ci PowerController : mission:Component [
+	instance PowerController : mission:Component [
 		base:hasIdentifier "IC-05"
 	]
 	
-	ci SolarPanel : mission:Component [
+	instance SolarPanel : mission:Component [
 		base:hasIdentifier "SP-01"
 	]
 	
-	ci Camera : mission:Component [
+	instance Camera : mission:Component [
 		base:hasIdentifier "CAM-11"
 	]
 
 	
-	ci Battery : mission:Component [
+	instance Battery : mission:Component [
 		base:hasIdentifier "B-01"
 	]
 
-	ci OnOffSwitch : mission:Component	[
+	instance OnOffSwitch : mission:Component	[
 		base:hasIdentifier "S_OF-01"
 	]
 	
-	ci ChargeDischargeSwitch : mission:Component [
+	instance ChargeDischargeSwitch : mission:Component [
 		base:hasIdentifier "S_CD-01"
 	]
 	
-	ci Bulbselector : mission:Component	[
+	instance Bulbselector : mission:Component	[
 		base:hasIdentifier "B_S-01"
 	]
 		
 
-	ci LampA : mission:Component [
+	instance LampA : mission:Component [
 		base:hasIdentifier "Lamp-01"
 	]
 	
 	
-	ci LampB : mission:Component [
+	instance LampB : mission:Component [
 		base:hasIdentifier "Lamp-02"
 	]	
 	
-	ci Controller : mission:Component [
+	instance Controller : mission:Component [
 		base:hasIdentifier "Con-01"
 	]		
 
-	ci Resistance : mission:Component [
+	instance Resistance : mission:Component [
 		base:hasIdentifier "R-01"
 	]		
 	
-	ci OtherSubsystems : mission:Component	
+	instance OtherSubsystems : mission:Component	
 	
 }
