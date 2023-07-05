@@ -110,6 +110,7 @@ def sizeAndColoringByDegree(G):
     show(plot)
     # output_file(title+".html")
     # show(plot)
+    output_file(title+".html")
     save(plot, filename=(title+".html")) 
     
     
@@ -210,7 +211,7 @@ def communitiesVisualization(G,types):
 
     output_notebook()
     show(plot)
-    # output_file(title+".html")
+    output_file(title+".html")
     # show(plot)
     save(plot, filename=(title+".html"))
     # save(plot, filename=(title+".html"))
