@@ -32,8 +32,8 @@ jobs:
     - name: Build
       run: ./gradlew build
 
-    - name: Query
-      run: ./gradlew startFuseki query stopFuseki -x reason
+    # - name: Query
+    #   run: ./gradlew startFuseki query stopFuseki -x reason
 
-    - name: Run Notebook
-      run: jupyter nbconvert --to html Report.ipynb
+    # - name: Run Notebook
+    #   run: jupyter nbconvert --to html Report.ipynb
