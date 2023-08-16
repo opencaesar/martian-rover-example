@@ -4,3 +4,4 @@
 !/build/results
 /.fuseki/
 __pycache__
+/build/
